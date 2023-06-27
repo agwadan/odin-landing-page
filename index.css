@@ -8,6 +8,7 @@
   --primary-dark: #1F2937;
   --primary-blue: #3882F6;
   --main-white: #ffffff;
+  --secondary-white: #F9FAF8;
 }
 
 body{
@@ -37,7 +38,8 @@ header{
 }
 
 header h1{
-  
+  font-size: 24px;
+  color: var(--secondary-white);
   margin-left: 10rem;
 }
 
@@ -51,7 +53,9 @@ header ul{
 }
 
 header ul li{
-  margin: 0 2rem;
+  font-size: 18px;
+  color: var(--secondary-white);
+  margin: 0 1rem;
   padding: 1rem;
 }
 
@@ -72,6 +76,7 @@ _______________________ */
 
 .hero-section .left{
   margin-left: 10rem;
+  color: var(--secondary-white);
 }
 
 .hero-section .left h1{
@@ -95,7 +100,9 @@ _______________________ */
 }
 
 .hero-section .right img{
-  height: 25rem;
+  height: 20rem;
+  width: 40rem;
+
 }
 
 
@@ -107,6 +114,8 @@ _________________________ */
 
 .info-section h2{
   text-align: center;
+  font-size: 36px;
+  color: var(--primary-dark);
 }
 
 .products{
@@ -149,6 +158,7 @@ _________________ */
   font-size: 36px;
   font-style: italic;
   font-weight: lighter;
+  color: var(--primary-dark);
 }
 
 .quote-section p:nth-child(2){
@@ -160,7 +170,7 @@ _________________ */
 /* Call To Action Styling
 __________________________ */
 .cta-section{
- color: #ffffff;
+ color: var(--main-white);
 }
 
 .cta-section .container{
