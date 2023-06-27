@@ -181,3 +181,13 @@ __________________________ */
   background: var(--primary-blue);
   border: 2px solid;
 }
+
+/* Footer Styling
+___________________ */
+footer{
+  background: var(--primary-dark);
+  color: var(--main-white);
+  padding: 6rem;
+  text-align: center;
+  font-weight: 100;
+}
